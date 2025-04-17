@@ -26,16 +26,16 @@ import { Link } from '@inertiajs/vue3';
 
                 <v-col cols="12" md="4">
                     <h4 class="font-weight-bold mb-2">Join Us On Social Media</h4>
-                    <v-btn icon class="me-2" href="https://facebook.com" target="_blank">
+                    <v-btn icon class="me-2" href="https://www.facebook.com/udugunexus/" target="_blank">
                         <v-icon>mdi-facebook</v-icon>
                     </v-btn>
-                    <v-btn icon class="me-2" href="https://twitter.com" target="_blank">
+                    <v-btn icon class="me-2" href="https://x.com/LabCitizens" target="_blank">
                         <v-icon>mdi-twitter</v-icon>
                     </v-btn>
-                    <v-btn icon class="me-2" href="https://linkedin.com" target="_blank">
-                        <v-icon>mdi-linkedin</v-icon>
+                    <v-btn icon class="me-2" href="https://www.youtube.com/channel/UCtQxN4vCTUC-mkTGLsqvSqg" target="_blank">
+                        <v-icon>mdi-youtube</v-icon>
                     </v-btn>
-                    <v-btn icon class="me-2" href="https://whatsapp.com" target="_blank">
+                    <v-btn icon class="me-2" href="https://api.whatsapp.com/send/?phone=12028041600&text=hi&type=phone_number&app_absent=0" target="_blank">
                         <v-icon>mdi-whatsapp</v-icon>
                     </v-btn>
 
