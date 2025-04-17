@@ -13,7 +13,7 @@ import { Link } from '@inertiajs/vue3';
           </Link>
 
           
-          <Link href="/about">
+          <Link href="/About">
             <v-btn variant="text">About Us</v-btn>
           </Link>
 
@@ -35,20 +35,6 @@ import { Link } from '@inertiajs/vue3';
             </v-btn>
         </template>
         <v-list density="compact" min-width="200">
-            <Link href="/education">
-                <v-list-item 
-                    title="Education"
-                    prepend-icon="mdi-school"
-                    value="education"
-                ></v-list-item>
-            </Link>
-            <Link href="/innovation">
-                <v-list-item 
-                    title="Innovation"
-                    prepend-icon="mdi-lightbulb-on"
-                    value="innovation"
-                ></v-list-item>
-            </Link>
             <Link href="/policy">
                 <v-list-item 
                     title="Policy"
@@ -56,6 +42,22 @@ import { Link } from '@inertiajs/vue3';
                     value="policy"
                 ></v-list-item>
             </Link>
+            <Link href="/Innovation">
+                <v-list-item 
+                    title="Innovation"
+                    prepend-icon="mdi-lightbulb-on"
+                    value="innovation"
+                ></v-list-item>
+            </Link>
+            <Link href="/Education">
+                <v-list-item 
+                    title="Education"
+                    prepend-icon="mdi-school"
+                    value="education"
+                ></v-list-item>
+            </Link>
+
+
         </v-list>
     </v-menu>
     
@@ -66,7 +68,7 @@ import { Link } from '@inertiajs/vue3';
     <Link href="/acacia-talk">
         <v-btn variant="text">Acacia Talk</v-btn>
     </Link>
-    <Link href="/contact">
+    <Link href="/Contact">
         <v-btn variant="text">Contact Us</v-btn>
     </Link>
 </v-toolbar-items>
