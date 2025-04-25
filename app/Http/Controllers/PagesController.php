@@ -21,4 +21,7 @@ class PagesController extends Controller
     public function education(){
         return inertia('Education');
     }
+    public function publications(){
+        return inertia('Publications');
+    }
 }

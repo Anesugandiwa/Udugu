@@ -61,7 +61,7 @@ import { Link } from '@inertiajs/vue3';
         </v-list>
     </v-menu>
     
-    <Link href="/publications">
+    <Link href="/Publications">
         <v-btn variant="text">Publications</v-btn>
     </Link>
     

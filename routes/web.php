@@ -23,6 +23,7 @@ Route::get('/About',[PagesController::class, 'about']);
 Route::get('/Innovation', [PagesController::class,'innovation']);
 Route::get('/policy', [PagesController::class,'policy']);
 Route::get('/Education', [PagesController::class,'education']);
+Route::get('/Publications', [PagesController::class,'publications']);
 
 
 require __DIR__.'/settings.php';

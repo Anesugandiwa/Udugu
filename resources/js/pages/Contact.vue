@@ -1,5 +1,6 @@
 <script setup>
 import NavLayout from '@/layouts/NavLayout.vue';
+import FooterLayout from '@/layouts/FooterLayout.vue';
 import { useForm } from '@inertiajs/vue3';
 import { ref } from 'vue';
 
@@ -28,6 +29,8 @@ const sendMessage =() => {
 </script>
 <template>
     <NavLayout>
+        <v-app>
+            <v-main>
         <v-container class="py-8">
             <v-row justify="center" align="stretch">
                 <!-- Text Section -->
@@ -155,5 +158,8 @@ const sendMessage =() => {
                 </v-col>
             </v-row>
         </v-container>
+        <FooterLayout/>
+    </v-main>
+    </v-app>
     </NavLayout>
 </template>
