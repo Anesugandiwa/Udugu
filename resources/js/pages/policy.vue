@@ -40,11 +40,11 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                     </section>
                     <hr>
                     <section class ="mb-8" >
-                        <h3 class="text-h5 text-primary mb-4">
+                        <h3 class="text-h5  mb-4">
                             Projects under Policy
                         </h3>
                         <div class="mb-6">
-                            <h4 class="text-h6 font-weight-bold text-primary mb-2">
+                            <h4 class="text-h6 font-weight-bold  mb-2">
                                 <v-icon icon="mdi-circle-small" color="primary" class="mr-2" />
                                     Economic Governance Initiative (EGI)
                             </h4>
@@ -63,7 +63,7 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                     </section>
                     <hr>
                     <section class="mb-8">
-                        <h4 class="text-h6 font-weight-bold text-primary mb-2">
+                        <h4 class="text-h6 font-weight-bold  mb-2">
                             <v-icon icon="mdi-circle-small" color="primary" class="mr-2" />
                                 Enhanced Dialogue Initiative (EDI)
                             </h4>
@@ -80,7 +80,7 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                             </v-btn>
                         </section>
                         <section class="mb-8">
-                            <h4 class="text-h6 font-weight-bold text-primary mb-2">
+                            <h4 class="text-h6 font-weight-bold  mb-2">
                                 <v-icon icon="mdi-circle-small" color="primary" class="mr-2" />
                                     UDUGU NEXUS
                                 </h4>

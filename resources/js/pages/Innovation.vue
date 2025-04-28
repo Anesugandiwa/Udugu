@@ -21,7 +21,7 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                     </section>
                     <hr>
                     <section class="mb-8">
-                        <h3 class="text-h5 text-primary mb-4">
+                        <h3 class="text-h5  mb-4">
                             YaWEP
                         </h3>
                         <p class="mb-4">
@@ -43,11 +43,11 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                         </v-btn>
                     </section>
                     <section>
-                        <h4 class="text-h5 text-primary mb-4">
+                        <h4 class="text-h5  mb-4">
                             Projects under YaWEP
                         </h4>
                         <div class="mb-6">
-                            <h4 class="text-h6 font-weight-bold text-primary mb-2">
+                            <h4 class="text-h6 font-weight-bold  mb-2">
                                 <v-icon icon="mdi-circle-small" color="primary" class="mr-2" />
                                     B2C Coworking
                             </h4>
@@ -65,7 +65,7 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                             </v-btn>
                         </div>
                         <div class="mb-6">
-                            <h4 class="text-h6 font-weight-bold text-primary mb-2">
+                            <h4 class="text-h6 font-weight-bold  mb-2">
                                 <v-icon icon="mdi-circle-small" color="primary" class="mr-2" />
                                 INNOVATION BARAZA
                             </h4>
@@ -83,7 +83,7 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                             </v-btn>
                         </div>
                         <div class="mb-6">
-                            <h4 class="text-h6 font-weight-bold text-primary mb-2">
+                            <h4 class="text-h6 font-weight-bold  mb-2">
                                 <v-icon icon="mdi-circle-small" color="primary" class="mr-2" />
                                 SIMBA SAVANNAH
                             </h4>
@@ -104,7 +104,7 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                     <hr>
                     <section class="mb-8">
                         <div class="mb-6">
-                            <h4 class="text-h5 text-primary mb-4">Eight2Five</h4>
+                            <h4 class="text-h5  mb-4">Eight2Five</h4>
                             <p class="text-body-1 pl-6">
                                 Eight2Five empowers startups and creatives through innovation, mentorship, and workspace solutions to grow sustainable businesses.
                             </p>
@@ -121,7 +121,7 @@ import FooterLayout from '@/layouts/FooterLayout.vue';
                     <hr>
                     <section class="mb-8">
                         <div class="mb-6">
-                            <h4 class="text-h5 text-primary mb-4">Africa Creatives Network</h4>
+                            <h4 class="text-h5  mb-4">Africa Creatives Network</h4>
                             <p class="text-body-1 pl-6">
                                 African Creatives Network unites and empowers Africa’s creative professionals through collaboration, 
                                 innovation, and opportunities that drive cultural and economic growth.
