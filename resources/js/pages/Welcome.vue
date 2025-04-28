@@ -1,10 +1,20 @@
 <script setup>
+import { Head } from '@inertiajs/vue3'
 import NavLayout from '@/layouts/NavLayout.vue'
 import FooterLayout from '@/layouts/FooterLayout.vue'
+
+defineProps({
+  seo: Object,
+})
 
 
 </script>
 <template>
+<Head>
+    <title>{{ seo.title }}</title>
+    <meta name="description" :content="seo.description">
+    <link rel="canonical" :href="seo.canonical" />
+</Head>
     <NavLayout>
         <v-app>
             <v-main>
